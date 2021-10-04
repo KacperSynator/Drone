@@ -1,6 +1,7 @@
 #include "drone/joystick.hpp"
 
 
+
 Joystick::~Joystick()
 {
 	//Close game controller
@@ -36,4 +37,31 @@ void Joystick::initialize()
 			printf( "Warning: Unable to open game controller! SDL Error: %s\n", SDL_GetError() );
 		}
     }	
+}
+
+bool Joystick::read_data()
+{
+     SDL_Event event;
+     if(SDL_PollEvent(&event) != 0)
+     {
+	 //LS horizontal (x axis)
+	 if(event.jaxis.axis==0)
+	     data.x_axis=event.jaxis.value;
+	     
+	 //LS vertical (y axis)
+	 else if(event.jaxis.axis==1)
+	     data.y_axis=event.jaxis.value;
+	    
+	 //RT (z0 axis)
+	 else if(event.jaxis.axis==4)
+	    data.z0_axis=event.jaxis.value;
+	    
+	 //LS (z1 axis)
+	 else if(event.jaxis.axis==5)
+	    data.z1_axis=event.jaxis.value;
+	    
+	 return true;   
+     }
+     else 
+	return false;
 }

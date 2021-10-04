@@ -6,11 +6,37 @@
 
 #IncludeRegexTransform: 
 
+../inc/drone/gyro.hpp
+wiringPiI2C.h
+-
+stdlib.h
+-
+stdio.h
+-
+
 ../inc/drone/joystick.hpp
 SDL2/SDL.h
 -
 
+../inc/drone/pwms.hpp
+wiringPi.h
+-
+pthread.h
+-
+
 /home/pi/Desktop/Drone/src/joystick.cpp
+drone/joystick.hpp
+/home/pi/Desktop/Drone/src/drone/joystick.hpp
+
+/home/pi/Desktop/Drone/src/main.cpp
+wiringPi.h
+-
+iostream
+-
+drone/pwms.hpp
+/home/pi/Desktop/Drone/src/drone/pwms.hpp
+drone/gyro.hpp
+/home/pi/Desktop/Drone/src/drone/gyro.hpp
 drone/joystick.hpp
 /home/pi/Desktop/Drone/src/drone/joystick.hpp
 

@@ -8,6 +8,7 @@ CMakeFiles/drone.dir/src/joystick.cpp.o: ../inc/drone/joystick.hpp
 CMakeFiles/drone.dir/src/joystick.cpp.o: ../src/joystick.cpp
 
 CMakeFiles/drone.dir/src/main.cpp.o: ../inc/drone/gyro.hpp
+CMakeFiles/drone.dir/src/main.cpp.o: ../inc/drone/joystick.hpp
 CMakeFiles/drone.dir/src/main.cpp.o: ../inc/drone/pwms.hpp
 CMakeFiles/drone.dir/src/main.cpp.o: ../src/main.cpp
 

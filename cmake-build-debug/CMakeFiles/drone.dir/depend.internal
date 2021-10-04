@@ -9,6 +9,7 @@ CMakeFiles/drone.dir/src/joystick.cpp.o
  /home/pi/Desktop/Drone/src/joystick.cpp
 CMakeFiles/drone.dir/src/main.cpp.o
  ../inc/drone/gyro.hpp
+ ../inc/drone/joystick.hpp
  ../inc/drone/pwms.hpp
  /home/pi/Desktop/Drone/src/main.cpp
 CMakeFiles/drone.dir/src/pwms.cpp.o
