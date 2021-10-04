@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -lwiringPi -lpthread -lSDL2   CMakeFiles/drone.dir/src/main.cpp.o CMakeFiles/drone.dir/src/gyro.cpp.o CMakeFiles/drone.dir/src/pwms.cpp.o CMakeFiles/drone.dir/src/joystick.cpp.o  -o drone  libdrone_lib.a 

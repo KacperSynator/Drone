@@ -1,0 +1,4 @@
+/home/pi/Desktop/Drone/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/Drone/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/Drone/cmake-build-debug/CMakeFiles/drone_lib.dir
+/home/pi/Desktop/Drone/cmake-build-debug/CMakeFiles/drone.dir

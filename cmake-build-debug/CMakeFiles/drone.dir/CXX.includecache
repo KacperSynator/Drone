@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/drone/joystick.hpp
+SDL2/SDL.h
+-
+
+/home/pi/Desktop/Drone/src/joystick.cpp
+drone/joystick.hpp
+/home/pi/Desktop/Drone/src/drone/joystick.hpp
+
